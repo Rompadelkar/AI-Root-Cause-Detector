@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Create Gemini client
-client = genai.Client(api_key=os.getenv("AIzaSyB7QZu2bk7ka-nRrWdQv8QgjJ244uM4Rg0"))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def analyze_logs(logs):
 
